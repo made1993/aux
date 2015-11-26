@@ -1,7 +1,12 @@
 #! /bin/bash
+
+
+cd /home/pi
+
 while true
 do
-	wget http://ipinfo.io/ip -qO - > ip.txt
+	date >> ip.txt
+	wget http://ipinfo.io/ip -qO - >> ip.txt
 	
 	git add ip.txt
 	git commit -m "first commit"
