@@ -10,6 +10,6 @@ do
 	
 	git add ip.txt
 	git commit -m "first commit"
-	git push -u origin master
+	git push
 	sleep 3600
 done
