@@ -1,7 +1,7 @@
 #! /bin/bash
 
 
-cd /home/pi
+cd /home/pi/github/aux
 
 while true
 do
